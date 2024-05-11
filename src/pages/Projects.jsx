@@ -17,7 +17,7 @@ export default function Projects() {
       <Box sx={{ display: "flex", justifyContent: "center", marginTop: 10 }}>
         <Typography variant="h5">
           Projects
-          <Box sx={{ width: "auto", background: "green", height: "2px" }}></Box>
+          <Box sx={{ width: "auto", background: "orangered", height: "2px" }}></Box>
         </Typography>
         {/* ////////////////////projects */}
       </Box>
@@ -36,7 +36,7 @@ export default function Projects() {
                 component="img"
                 height="400"
                 image="/assets/istockphoto-626669886-612x612.jpg"
-                alt="green iguana"
+                alt="orangered iguana"
               />
             </CardActionArea>
             <Box
@@ -61,7 +61,7 @@ export default function Projects() {
                   Blog Website Using React , NodeJs
                 </Typography>
                 <Typography
-                  sx={{ color: "green", fontSize: "20px" }}
+                  sx={{ color: "orangered", fontSize: "20px" }}
                   component="a"
                   target="blank"
                   href="https://github.com/esraaali138/Blog-app-react"
@@ -70,7 +70,7 @@ export default function Projects() {
                 </Typography>
                 <br />
                 <Typography
-                  sx={{ color: "green", fontSize: "20px" }}
+                  sx={{ color: "orangered", fontSize: "20px" }}
                   component="a"
                   target="blank"
                   href="https://blog-app-react-two.vercel.app/"
@@ -91,7 +91,7 @@ export default function Projects() {
                 component="img"
                 height="400"
                 image="/assets/ECOMMERCE_SHUTTER5.jpg"
-                alt="green iguana"
+                alt="orangered iguana"
               />
             </CardActionArea>
             <Box
@@ -116,7 +116,7 @@ export default function Projects() {
                   E-commerce Using Angular , NodeJs
                 </Typography>
                 <Typography
-                  sx={{ color: "green", fontSize: "20px" }}
+                  sx={{ color: "orangered", fontSize: "20px" }}
                   component="a"
                   target="blank"
                   href="https://github.com/Web-UI-Development-Team/E-Commerce-Angular"
@@ -125,7 +125,7 @@ export default function Projects() {
                 </Typography>
                 <br />
                 <Typography
-                  sx={{ color: "green", fontSize: "20px" }}
+                  sx={{ color: "orangered", fontSize: "20px" }}
                   component="a"
                   target="blank"
                   href="https://e-commerce-sable-sigma.vercel.app/user/home"
@@ -146,7 +146,7 @@ export default function Projects() {
                 component="img"
                 height="400"
                 image="/assets/5fbc29f4d2ead110351988.webp"
-                alt="green iguana"
+                alt="orangered iguana"
               />
             </CardActionArea>
             <Box
@@ -171,7 +171,7 @@ export default function Projects() {
                   Examnation System Using JavaScript
                 </Typography>
                 <Typography
-                  sx={{ color: "green", fontSize: "20px" }}
+                  sx={{ color: "orangered", fontSize: "20px" }}
                   component="a"
                   target="blank"
                   href="https://github.com/esraaali138/Examnation-system-js"
@@ -180,7 +180,7 @@ export default function Projects() {
                 </Typography>
                 <br />
                 <Typography
-                  sx={{ color: "green", fontSize: "20px" }}
+                  sx={{ color: "orangered", fontSize: "20px" }}
                   component="a"
                   target="blank"
                   href="https://esraaali138.github.io/Examnation-system-js/"

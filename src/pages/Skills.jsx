@@ -9,7 +9,7 @@ export default function Skills() {
           <Typography variant="h5">
             Skills
             <Box
-              sx={{ width: "auto  ", background: "green", height: "2px" }}
+              sx={{ width: "auto  ", background: "orangered", height: "2px" }}
             ></Box>
           </Typography>
           {/* ////////////////////skills */}
@@ -165,7 +165,7 @@ export default function Skills() {
               display:{xs: "none", sm: "none" , md:"block" }
             }}
             alt="The house from the offer."
-            src="/assets/Programming.gif"
+            src="/assets/Coding.gif"
           />
         </Stack>
       </Container>

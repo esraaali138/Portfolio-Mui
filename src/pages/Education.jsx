@@ -12,7 +12,7 @@ export default function Education() {
           <Typography variant="h5">
             Education
             <Box
-              sx={{ width: "auto", background: "green", height: "2px" }}
+              sx={{ width: "auto", background: "orangered", height: "2px" }}
             ></Box>
           </Typography>
           {/* ////////////////////education */}
@@ -28,7 +28,7 @@ export default function Education() {
                 <Typography sx={{ mb: 2 }} color="text.secondary">
                   Institution: ITI
                 </Typography>
-                <Typography variant="body2" sx={{ color: "green" }}>
+                <Typography variant="body2" sx={{ color: "orangered" }}>
                   Oct. 2023 - Present
                 </Typography>
               </CardContent>
@@ -42,7 +42,7 @@ export default function Education() {
                 <Typography sx={{ mb: 2 }} color="text.secondary">
                   University: Tanta{" "}
                 </Typography>
-                <Typography variant="body2" sx={{ color: "green" }}>
+                <Typography variant="body2" sx={{ color: "orangered" }}>
                   Sept. 2017 - Jul. 2022{" "}
                 </Typography>
               </CardContent>
@@ -55,7 +55,7 @@ export default function Education() {
             sx={{ width: "35%", height: "400px" , 
               display:{xs:"none" , sm:"none" , md: "block"}
              }}
-             src="/assets/Learning.gif"
+             src="/assets/Learning (1).gif"
              alt="education"
           />
         </Stack>

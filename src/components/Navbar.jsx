@@ -10,11 +10,10 @@ import Container from "@mui/material/Container";
 import Link from "@mui/material/Link";
 import MenuItem from "@mui/material/MenuItem";
 import { useState } from "react";
-
-
+import Button from "@mui/material/Button";
 
 function Navbar() {
-const pages = ["HOME", "ABOUT", "SKILLS", "EDUCATION", "PROJECTS"];
+  const pages = ["HOME", "EDUCATION","SKILLS", "PROJECTS"];
   const [anchorElNav, setAnchorElNav] = useState(null);
   const [activeLink, setActiveLink] = useState("HOME");
 
@@ -30,14 +29,9 @@ const pages = ["HOME", "ABOUT", "SKILLS", "EDUCATION", "PROJECTS"];
     handleCloseNavMenu;
   };
   return (
-    <AppBar
-      position="fixed"
-      sx={{ bgcolor: "#fff", color: "black"  }}
-    >
+    <AppBar position="fixed" sx={{ bgcolor: "#fff", color: "black" }}>
       <Container maxWidth="xl">
-    
         <Toolbar disableGutters>
-   
           <Typography
             variant="h6"
             noWrap
@@ -53,7 +47,7 @@ const pages = ["HOME", "ABOUT", "SKILLS", "EDUCATION", "PROJECTS"];
               textDecoration: "none",
             }}
           >
-            ESRAA.
+            ES<span style={{ color: "orangered" }}>R</span>AA.
           </Typography>
 
           <Box sx={{ flexGrow: 0, display: { xs: "flex", md: "none" } }}>
@@ -83,38 +77,48 @@ const pages = ["HOME", "ABOUT", "SKILLS", "EDUCATION", "PROJECTS"];
               onClose={handleCloseNavMenu}
               sx={{
                 flexGrow: 0,
+                textAlign: "center",
                 display: { xs: "block", md: "none" },
               }}
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={() => handleLink(page)}>
                   <Typography textAlign="center">{page}</Typography>
-                 
                 </MenuItem>
               ))}
             </Menu>
           </Box>
 
-          <Box sx={{ flexGrow: 0, display: { xs: "none", md: "flex" } }}>
-            
+          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
               <Link
                 key={page}
                 onClick={() => handleLink(page)}
                 activeStyle={{ textDecoration: "underline" }}
-                
-               
                 sx={{
-                  color: page === activeLink ? "green" : "black",
+                  color: page === activeLink ? "orangered" : "black",
                   display: "block",
                   mr: 8,
                   textDecoration: page === activeLink ? "underline" : "none",
-                  cursor:'pointer'
+                  cursor: "pointer",
                 }}
               >
                 {page}
               </Link>
             ))}
+          </Box>
+          <Box>
+            <Button sx={{ width: "80px", background: "orangered", marginRight:8 ,display: { xs: "none", md: "flex" } }}>
+              <a
+                className="btnDownload"
+                style={{ textDecoration: "none", color: "#fff" }}
+                href="public/Esraa ali.pdf"
+                target="_blank"
+                download
+              >
+                Hire me
+              </a>
+            </Button>
           </Box>
         </Toolbar>
       </Container>

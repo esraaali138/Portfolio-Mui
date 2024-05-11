@@ -28,7 +28,7 @@ export default function Footer() {
                 ml: 2,
                 cursor: "pointer",
                 color: "#fff",
-                "&:hover": { color: "green" },
+                "&:hover": { color: "orangered" },
               }}
             />
           </Typography>
@@ -38,7 +38,7 @@ export default function Footer() {
                 ml: 2,
                 cursor: "pointer",
                 color: "#fff",
-                "&:hover": { color: "green" },
+                "&:hover": { color: "orangered" },
               }}
             />
           </Typography>
@@ -48,7 +48,7 @@ export default function Footer() {
                 ml: 2,
                 cursor: "pointer",
                 color: "#fff",
-                "&:hover": { color: "green" },
+                "&:hover": { color: "orangered" },
               }}
             />
           </Typography>
@@ -58,7 +58,7 @@ export default function Footer() {
                 ml: 2,
                 cursor: "pointer",
                 color: "#fff",
-                "&:hover": { color: "green" },
+                "&:hover": { color: "orangered" },
               }}
             />
           </Typography>

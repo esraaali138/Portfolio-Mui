@@ -1,7 +1,6 @@
 import './App.css'
 import Home from './pages/Home'
 import Navbar from './components/Navbar'
-import About from './pages/About'
 import Skills from './pages/Skills'
 import Education from './pages/Education'
 import Projects from './pages/Projects'
@@ -14,9 +13,8 @@ function App() {
     <>
     <Navbar/>
     <Home/>
-    <About/>
-    <Skills/>
     <Education/>
+    <Skills/>
     <Projects/>
     <Footer/>
     <CssBaseline/>
