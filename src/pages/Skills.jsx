@@ -7,7 +7,7 @@ export default function Skills() {
     <>
       <Container sx={{ height: "85vh" }}>
         <Box sx={{ display: "flex", justifyContent: "center", marginTop: 10  }}>
-          <Typography variant="h5" sx={{color:"#fff"}}>
+          <Typography variant="h5" sx={{color:"black"}}>
             Skills
             <Box
               sx={{ width: "auto  ", background: "orangered", height: "2px" }}
@@ -24,7 +24,7 @@ export default function Skills() {
           <Stack spacing={4}>
             <Box sx={{ width: "100%", maxWidth: "600px", margin: "0 auto" }}>
               <Typography
-                sx={{ display: "block", fontSize: 24, fontWeight: "bold" ,color:"#fff"}}
+                sx={{ display: "block", fontSize: 24, fontWeight: "bold" ,color:"black"}}
                 variant="p"
               >
                 Front End
@@ -96,7 +96,7 @@ export default function Skills() {
             {/* front */}
             <Box sx={{ width: "60%" }}>
               <Typography
-                sx={{ display: "block", fontSize: 24, fontWeight: "bold",color:"#fff" }}
+                sx={{ display: "block", fontSize: 24, fontWeight: "bold",color:"black" }}
                 variant="p"
               >
                 Back End
@@ -133,7 +133,7 @@ export default function Skills() {
             {/* back */}
             <Box sx={{ width: "60%" }}>
               <Typography
-                sx={{ display: "block", fontSize: 24, fontWeight: "bold" ,color:"#fff"}}
+                sx={{ display: "block", fontSize: 24, fontWeight: "bold" ,color:"black"}}
                 variant="p"
               >
                 Design

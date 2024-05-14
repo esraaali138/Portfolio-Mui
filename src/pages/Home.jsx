@@ -35,13 +35,13 @@ export default function Home() {
               <span>
                 <WavingHandIcon sx={{ color: "orange" }}></WavingHandIcon>
               </span>
-              <span style={{ color: "#fff", fontWeight: 700 }}>
+              <span style={{ color: "#818589", fontWeight: 700 }}>
                 Hi, I'm Esraa Ali <br />
               </span>
             </Typography>
             <Typography
               noWrap
-              sx={{ marginTop: 4, color: "#fff", textAlign: "center" }}
+              sx={{ marginTop: 4, color: "#818589", textAlign: "center" }}
             >
               Proactive{" "}
               <span style={{ color: "orangered", fontWeight: 700 }}>
@@ -90,7 +90,7 @@ export default function Home() {
                 <LinkedInIcon
                   sx={{
                     cursor: "pointer",
-                    color: "#fff",
+                    color: "black",
                     "&:hover": { color: "orangered" },
                   }}
                 />
@@ -104,7 +104,7 @@ export default function Home() {
                   sx={{
                     ml: 2,
                     cursor: "pointer",
-                    color: "#fff",
+                    color: "black",
                     "&:hover": { color: "orangered" },
                   }}
                 />
