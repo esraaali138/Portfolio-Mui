@@ -15,7 +15,7 @@ export default function Projects() {
   return (
     <Container>
       <Box sx={{ display: "flex", justifyContent: "center", marginTop: 10 }}>
-        <Typography variant="h5">
+        <Typography variant="h5" sx={{color:"#fff"}}>
           Projects
           <Box sx={{ width: "auto", background: "orangered", height: "2px" }}></Box>
         </Typography>
@@ -61,7 +61,7 @@ export default function Projects() {
                   Blog Website Using React , NodeJs
                 </Typography>
                 <Typography
-                  sx={{ color: "orangered", fontSize: "20px" }}
+                  sx={{ color: "orangered", fontSize: "20px", textDecoration:"none" }}
                   component="a"
                   target="blank"
                   href="https://github.com/esraaali138/Blog-app-react"
@@ -70,7 +70,7 @@ export default function Projects() {
                 </Typography>
                 <br />
                 <Typography
-                  sx={{ color: "orangered", fontSize: "20px" }}
+                  sx={{ color: "orangered", fontSize: "20px" , textDecoration:"none"}}
                   component="a"
                   target="blank"
                   href="https://blog-app-react-two.vercel.app/"
@@ -116,7 +116,7 @@ export default function Projects() {
                   E-commerce Using Angular , NodeJs
                 </Typography>
                 <Typography
-                  sx={{ color: "orangered", fontSize: "20px" }}
+                  sx={{ color: "orangered", fontSize: "20px", textDecoration:"none" }}
                   component="a"
                   target="blank"
                   href="https://github.com/Web-UI-Development-Team/E-Commerce-Angular"
@@ -125,7 +125,7 @@ export default function Projects() {
                 </Typography>
                 <br />
                 <Typography
-                  sx={{ color: "orangered", fontSize: "20px" }}
+                  sx={{ color: "orangered", fontSize: "20px", textDecoration:"none" }}
                   component="a"
                   target="blank"
                   href="https://e-commerce-sable-sigma.vercel.app/user/home"
@@ -171,7 +171,7 @@ export default function Projects() {
                   Examnation System Using JavaScript
                 </Typography>
                 <Typography
-                  sx={{ color: "orangered", fontSize: "20px" }}
+                  sx={{ color: "orangered", fontSize: "20px" , textDecoration:"none"}}
                   component="a"
                   target="blank"
                   href="https://github.com/esraaali138/Examnation-system-js"
@@ -180,7 +180,7 @@ export default function Projects() {
                 </Typography>
                 <br />
                 <Typography
-                  sx={{ color: "orangered", fontSize: "20px" }}
+                  sx={{ color: "orangered", fontSize: "20px" , textDecoration:"none"}}
                   component="a"
                   target="blank"
                   href="https://esraaali138.github.io/Examnation-system-js/"

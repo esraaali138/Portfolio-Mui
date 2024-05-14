@@ -29,7 +29,7 @@ function Navbar() {
     handleCloseNavMenu;
   };
   return (
-    <AppBar position="fixed" sx={{ bgcolor: "#fff", color: "black" }}>
+    <AppBar position="fixed" sx={{ bgcolor: "transparent"}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -96,7 +96,7 @@ function Navbar() {
                 onClick={() => handleLink(page)}
                 activeStyle={{ textDecoration: "underline" }}
                 sx={{
-                  color: page === activeLink ? "orangered" : "black",
+                  color: page === activeLink ? "orangered" : "#fff",
                   display: "block",
                   mr: 8,
                   textDecoration: page === activeLink ? "underline" : "none",
