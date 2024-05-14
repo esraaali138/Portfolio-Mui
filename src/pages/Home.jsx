@@ -51,18 +51,21 @@ export default function Home() {
               about software engineering with a focus on personal and technical
               development.
             </Typography>
-            <Box sx={{ marginTop: 4, textAlign: "center" }}>
+            <Box sx={{ marginTop: 4, textAlign: "center"}}>
               <Button
                 sx={{
-                  width: "150px",
+                  width: "auto",
                   background: "orangered",
-                  "&:hover": { color: "orangered" },
-                }}
+                  borderColor:"orangered",
+                  '&:hover': {  borderColor: "orangered",background:" rgb(250, 77, 9)"}    }}
+                  variant="outlined"
+
               >
+                
                 <a
                   className="btnDownload"
-                  style={{ textDecoration: "none", color: "#fff" }}
-                  href="public/Esraa ali.pdf"
+                  style={{ textDecoration: "none", color: "#fff"}}
+                  href="/Esraa Ali.pdf"
                   target="_blank"
                   download
                 >

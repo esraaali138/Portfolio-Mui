@@ -108,11 +108,12 @@ function Navbar() {
             ))}
           </Box>
           <Box>
-            <Button sx={{ width: "80px", background: "orangered", marginRight:8 ,display: { xs: "none", md: "flex" } }}>
+            <Button sx={{ width: "80px", background: "orangered", marginRight:8 ,display: { xs: "none", md: "flex" } ,
+            '&:hover': {  borderColor: "orangered",background:" rgb(250, 77, 9)"} 
+          }}>
               <a
                 className="btnDownload"
                 style={{ textDecoration: "none", color: "#fff" }}
-                href="public/Esraa ali.pdf"
                 target="_blank"
                 download
               >
